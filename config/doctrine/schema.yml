@@ -1,33 +1,4 @@
-student:
-  actAs:
-    Timestampable: ~
-    columns:
-    student_code: { type: string(255), notnull: true}
-    user_id: { type: integer, notnull: true }
-  relations:
-    sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
-    
-
-
-teacher:
-  actAs:
-    Timestampable: ~
-  columns:
-    student_code: { type: string(255), notnull: true}
-    user_id: { type: integer, notnull: true }
-  relations:
-    sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
-    
-lesson:
-  actAs:
-    Timestampable: ~
-  columns:
-    lesson_code: { type: string(255), notnull: true}
-    prev_lesson: { type: integer, notnull: false }
-  relations:
-    sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
-    lesson: {onDelete: CASCADE, local: prev_lesson, foreign: id, foreignAlias: lesson}
-
+#  Fields Table
 fields:
   actAs: 
     Timestampable: ~
@@ -38,7 +9,9 @@ fields:
     fieldorder: { type: integer, notnull: false, default: 0 }
     isNum: { type: integer, notnull: false, default: 0 }
     isReq: { type: integer, notnull: false, default: 0 }
+
     
+#  Field Values Table
 field_values:
   actAs: 
     Timestampable: ~
@@ -48,3 +21,79 @@ field_values:
     fielvaluedorder: { type: integer, notnull: false, default: 0 }    
   relations:
     fields: {onDelete: CASCADE, local: field_id, foreign: id}  
+
+
+#  School Year Table
+school_year:
+  actAs: 
+    Timestampable: ~
+  columns:
+    value: { type: string(255), notnull: true}
+    start_at: { type: date, notnull: true}
+    end_at: { type: date, notnull: true }
+
+#  Student Table
+student:
+  actAs:
+    Timestampable: ~
+  columns:
+    student_code: { type: string(255), notnull: true}
+    user_id: { type: integer, notnull: true }
+  relations:
+    sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
+#  Student Fields Table   
+student_fields:
+   actAs:
+    Timestampable: ~
+   columns:
+    student_id: { type: integer, notnull: true}
+    field_id: { type: integer, notnull: true }
+    value: { type: object, notnull: true }
+   relations:
+    student: {onDelete: CASCADE, local: student_id, foreign: id}
+    fields: {onDelete: CASCADE, local: field_id, foreign: id}
+#  Teacher Table
+teacher:
+  actAs:
+    Timestampable: ~
+  columns:
+    student_code: { type: string(255), notnull: true}
+    user_id: { type: integer, notnull: true }
+  relations:
+    sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
+#  Teacher Fields Table
+teacher_fields:
+   actAs:
+    Timestampable: ~
+   columns:
+    teacher_id: { type: integer, notnull: true}
+    field_id: { type: integer, notnull: true }
+    value: { type: object, notnull: true }
+   relations:
+    teacher: {onDelete: CASCADE, local: teacher_id, foreign: id}
+    fields: {onDelete: CASCADE, local: field_id, foreign: id}
+#  Lesson Table
+lesson:
+  actAs:
+    Timestampable: ~
+  columns:
+    lesson_code: { type: string(255), notnull: true}
+    prev_lesson: { type: integer, notnull: false }
+  relations:
+    sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
+    lesson: {onDelete: CASCADE, local: prev_lesson, foreign: id}
+    
+    
+    
+#  lesson Fields Table
+lesson_fields:
+   actAs:
+    Timestampable: ~
+   columns:
+    lesson_id: { type: integer, notnull: true}
+    field_id: { type: integer, notnull: true }
+    value: { type: object, notnull: true }
+   relations:
+    lesson: {onDelete: CASCADE, local: lesson_id, foreign: id}
+    fields: {onDelete: CASCADE, local: field_id, foreign: id}
+
