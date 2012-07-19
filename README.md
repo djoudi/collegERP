@@ -1,4 +1,4 @@
 collegERP
 =========
 
-Colleg ERP System verion 1
+College ERP System version 1
