@@ -2,4 +2,7 @@
 # http://www.symfony-project.org/reference/1_4/en/11-App
 
 # default values
-#all:
+all:
+  host: "http://localhost/ubeogit/web/"
+  max_page: 15
+  

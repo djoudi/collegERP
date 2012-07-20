@@ -1,0 +1,1179 @@
+Jul 20 08:42:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:42:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:42:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:42:14 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:42:14 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:42:14 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:42:14 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:42:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 08:42:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:42:14 symfony [info] {sfWebDebugLogger} Configuration 242.28 ms (10)
+Jul 20 08:42:14 symfony [info] {sfWebDebugLogger} Factories 512.80 ms (1)
+Jul 20 08:42:14 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.14 ms (1)
+Jul 20 08:42:14 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 49.84 ms (1)
+Jul 20 08:42:14 symfony [info] {sfWebResponse} Send content (28877 o)
+Jul 20 08:46:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:46:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:46:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:46:26 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:46:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:46:26 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:46:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:46:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 08:46:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:46:26 symfony [info] {sfWebDebugLogger} Configuration 17.27 ms (9)
+Jul 20 08:46:26 symfony [info] {sfWebDebugLogger} Factories 45.57 ms (1)
+Jul 20 08:46:26 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 08:46:26 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 26.20 ms (1)
+Jul 20 08:46:26 symfony [info] {sfWebResponse} Send content (29043 o)
+Jul 20 08:47:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:47:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:47:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:47:38 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:47:38 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:47:38 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:47:38 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:47:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 08:47:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:47:38 symfony [info] {sfWebDebugLogger} Configuration 15.67 ms (9)
+Jul 20 08:47:38 symfony [info] {sfWebDebugLogger} Factories 45.01 ms (1)
+Jul 20 08:47:38 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 08:47:38 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 26.30 ms (1)
+Jul 20 08:47:38 symfony [info] {sfWebResponse} Send content (29156 o)
+Jul 20 08:48:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:48:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:48:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:48:20 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:48:20 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:48:20 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:48:20 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:48:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 08:48:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:48:20 symfony [info] {sfWebDebugLogger} Configuration 15.99 ms (9)
+Jul 20 08:48:20 symfony [info] {sfWebDebugLogger} Factories 47.51 ms (1)
+Jul 20 08:48:20 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 08:48:20 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 23.91 ms (1)
+Jul 20 08:48:20 symfony [info] {sfWebResponse} Send content (37959 o)
+Jul 20 08:49:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:49:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:49:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:49:13 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:49:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:49:13 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:49:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:49:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 08:49:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:49:13 symfony [info] {sfWebDebugLogger} Configuration 17.66 ms (9)
+Jul 20 08:49:13 symfony [info] {sfWebDebugLogger} Factories 47.31 ms (1)
+Jul 20 08:49:13 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.11 ms (1)
+Jul 20 08:49:13 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 26.23 ms (1)
+Jul 20 08:49:13 symfony [info] {sfWebResponse} Send content (37985 o)
+Jul 20 08:50:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:50:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:50:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:50:10 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:50:10 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:50:10 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:50:10 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:50:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 08:50:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:50:10 symfony [info] {sfWebDebugLogger} Configuration 16.28 ms (9)
+Jul 20 08:50:10 symfony [info] {sfWebDebugLogger} Factories 44.60 ms (1)
+Jul 20 08:50:10 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 08:50:10 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 26.10 ms (1)
+Jul 20 08:50:10 symfony [info] {sfWebResponse} Send content (38010 o)
+Jul 20 08:58:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:58:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:58:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:58:35 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:58:35 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:58:35 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:58:35 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:58:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:58:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:58:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:58:58 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:58:58 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:58:58 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:58:58 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:58:58 symfony [err] {sfConfigurationException} The component does not exist: "userControl", "head".
+Jul 20 08:58:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 20 08:58:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:58:58 symfony [info] {sfWebDebugLogger} Configuration 44.54 ms (11)
+Jul 20 08:58:58 symfony [info] {sfWebDebugLogger} Factories 47.70 ms (1)
+Jul 20 08:58:58 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 08:58:58 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 228.37 ms (1)
+Jul 20 08:59:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:59:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:59:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:59:13 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:59:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:59:13 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:59:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:59:13 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 08:59:13 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 08:59:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 08:59:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:59:13 symfony [info] {sfWebDebugLogger} Configuration 17.78 ms (11)
+Jul 20 08:59:13 symfony [info] {sfWebDebugLogger} Factories 45.69 ms (1)
+Jul 20 08:59:13 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 08:59:13 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 29.54 ms (1)
+Jul 20 08:59:13 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 08:59:13 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.62 ms (1)
+Jul 20 08:59:13 symfony [info] {sfWebResponse} Send content (31078 o)
+Jul 20 08:59:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 08:59:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 08:59:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 08:59:41 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 08:59:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 08:59:41 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:59:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 08:59:41 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 08:59:41 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 08:59:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 08:59:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 08:59:41 symfony [info] {sfWebDebugLogger} Configuration 17.34 ms (11)
+Jul 20 08:59:41 symfony [info] {sfWebDebugLogger} Factories 48.06 ms (1)
+Jul 20 08:59:41 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.11 ms (1)
+Jul 20 08:59:41 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 27.29 ms (1)
+Jul 20 08:59:41 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 08:59:41 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.59 ms (1)
+Jul 20 08:59:41 symfony [info] {sfWebResponse} Send content (31096 o)
+Jul 20 09:00:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:00:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:00:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:00:11 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:00:11 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:00:11 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:00:11 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:00:11 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:00:11 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:00:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:00:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:00:11 symfony [info] {sfWebDebugLogger} Configuration 17.29 ms (11)
+Jul 20 09:00:11 symfony [info] {sfWebDebugLogger} Factories 49.17 ms (1)
+Jul 20 09:00:11 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.11 ms (1)
+Jul 20 09:00:11 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 28.19 ms (1)
+Jul 20 09:00:11 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:00:11 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.65 ms (1)
+Jul 20 09:00:11 symfony [info] {sfWebResponse} Send content (37779 o)
+Jul 20 09:01:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:01:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:01:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:01:54 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:01:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:01:55 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:01:55 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:01:55 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:01:55 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:01:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:01:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:01:55 symfony [info] {sfWebDebugLogger} Configuration 21.05 ms (11)
+Jul 20 09:01:55 symfony [info] {sfWebDebugLogger} Factories 68.54 ms (1)
+Jul 20 09:01:55 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.18 ms (1)
+Jul 20 09:01:55 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 35.95 ms (1)
+Jul 20 09:01:55 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:01:55 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.71 ms (1)
+Jul 20 09:01:55 symfony [info] {sfWebResponse} Send content (37748 o)
+Jul 20 09:03:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:03:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:03:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:03:57 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:03:57 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:03:57 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:03:57 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:03:57 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:03:57 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:03:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:03:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:03:57 symfony [info] {sfWebDebugLogger} Configuration 16.05 ms (11)
+Jul 20 09:03:57 symfony [info] {sfWebDebugLogger} Factories 45.40 ms (1)
+Jul 20 09:03:57 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:03:57 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 30.18 ms (1)
+Jul 20 09:03:57 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:03:57 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.85 ms (1)
+Jul 20 09:03:57 symfony [info] {sfWebResponse} Send content (37824 o)
+Jul 20 09:04:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:04:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:04:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:04:08 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:04:08 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:04:08 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:04:08 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:04:08 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:04:08 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:04:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:04:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:04:08 symfony [info] {sfWebDebugLogger} Configuration 15.23 ms (11)
+Jul 20 09:04:08 symfony [info] {sfWebDebugLogger} Factories 49.65 ms (1)
+Jul 20 09:04:08 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.18 ms (1)
+Jul 20 09:04:08 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 33.50 ms (1)
+Jul 20 09:04:08 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:04:08 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.99 ms (1)
+Jul 20 09:04:08 symfony [info] {sfWebResponse} Send content (37803 o)
+Jul 20 09:05:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:05:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:05:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:05:32 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:05:32 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:05:32 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:05:32 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:05:32 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:05:32 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:05:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:05:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:05:32 symfony [info] {sfWebDebugLogger} Configuration 14.95 ms (11)
+Jul 20 09:05:32 symfony [info] {sfWebDebugLogger} Factories 46.44 ms (1)
+Jul 20 09:05:32 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:05:32 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 25.72 ms (1)
+Jul 20 09:05:32 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:05:32 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.90 ms (1)
+Jul 20 09:05:32 symfony [info] {sfWebResponse} Send content (37804 o)
+Jul 20 09:06:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:06:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:06:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:06:36 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:06:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:06:36 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:06:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:06:36 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:06:36 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:06:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:06:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:06:36 symfony [info] {sfWebDebugLogger} Configuration 20.33 ms (11)
+Jul 20 09:06:36 symfony [info] {sfWebDebugLogger} Factories 68.82 ms (1)
+Jul 20 09:06:36 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:06:36 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 54.49 ms (1)
+Jul 20 09:06:36 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.02 ms (1)
+Jul 20 09:06:36 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.57 ms (1)
+Jul 20 09:06:36 symfony [info] {sfWebResponse} Send content (37788 o)
+Jul 20 09:06:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:06:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:06:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:06:54 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:06:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:06:54 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:06:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:06:54 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:06:54 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:06:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:06:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:06:54 symfony [info] {sfWebDebugLogger} Configuration 14.65 ms (11)
+Jul 20 09:06:54 symfony [info] {sfWebDebugLogger} Factories 44.99 ms (1)
+Jul 20 09:06:54 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:06:54 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 31.24 ms (1)
+Jul 20 09:06:54 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:06:54 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 2.08 ms (1)
+Jul 20 09:06:54 symfony [info] {sfWebResponse} Send content (37804 o)
+Jul 20 09:07:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:07:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:07:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:07:19 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:07:19 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:07:19 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:07:19 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:07:19 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:07:19 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:07:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:07:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:07:19 symfony [info] {sfWebDebugLogger} Configuration 14.30 ms (11)
+Jul 20 09:07:19 symfony [info] {sfWebDebugLogger} Factories 46.65 ms (1)
+Jul 20 09:07:19 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.11 ms (1)
+Jul 20 09:07:19 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 30.41 ms (1)
+Jul 20 09:07:19 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:07:19 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.98 ms (1)
+Jul 20 09:07:19 symfony [info] {sfWebResponse} Send content (37804 o)
+Jul 20 09:07:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:07:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:07:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:07:35 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:07:35 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:07:35 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:07:35 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:07:35 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:07:35 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:07:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:07:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:07:35 symfony [info] {sfWebDebugLogger} Configuration 14.22 ms (11)
+Jul 20 09:07:35 symfony [info] {sfWebDebugLogger} Factories 45.05 ms (1)
+Jul 20 09:07:35 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.11 ms (1)
+Jul 20 09:07:35 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 29.06 ms (1)
+Jul 20 09:07:35 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:07:35 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.92 ms (1)
+Jul 20 09:07:35 symfony [info] {sfWebResponse} Send content (37831 o)
+Jul 20 09:08:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:08:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:08:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:08:41 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:08:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:08:41 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:08:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:08:41 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:08:41 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:08:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:08:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:08:41 symfony [info] {sfWebDebugLogger} Configuration 18.41 ms (11)
+Jul 20 09:08:41 symfony [info] {sfWebDebugLogger} Factories 46.56 ms (1)
+Jul 20 09:08:41 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:08:41 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 34.08 ms (1)
+Jul 20 09:08:41 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:08:41 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.94 ms (1)
+Jul 20 09:08:41 symfony [info] {sfWebResponse} Send content (37859 o)
+Jul 20 09:09:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:09:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:09:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:09:55 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:09:55 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:09:55 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:09:55 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:09:55 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:09:55 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:09:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:09:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:09:55 symfony [info] {sfWebDebugLogger} Configuration 16.88 ms (11)
+Jul 20 09:09:55 symfony [info] {sfWebDebugLogger} Factories 40.82 ms (1)
+Jul 20 09:09:55 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:09:55 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 34.32 ms (1)
+Jul 20 09:09:55 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:09:55 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.60 ms (1)
+Jul 20 09:09:55 symfony [info] {sfWebResponse} Send content (37859 o)
+Jul 20 09:11:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:11:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:11:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:11:01 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:11:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:11:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:11:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:11:01 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:11:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:11:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:11:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:11:01 symfony [info] {sfWebDebugLogger} Configuration 17.41 ms (11)
+Jul 20 09:11:01 symfony [info] {sfWebDebugLogger} Factories 57.96 ms (1)
+Jul 20 09:11:01 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:11:01 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 43.78 ms (1)
+Jul 20 09:11:01 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:11:01 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.58 ms (1)
+Jul 20 09:11:01 symfony [info] {sfWebResponse} Send content (37858 o)
+Jul 20 09:11:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:11:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:11:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:11:41 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:11:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:11:41 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:11:41 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:11:41 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:11:41 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:11:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:11:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:11:41 symfony [info] {sfWebDebugLogger} Configuration 23.42 ms (11)
+Jul 20 09:11:41 symfony [info] {sfWebDebugLogger} Factories 86.19 ms (1)
+Jul 20 09:11:41 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:11:41 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 39.49 ms (1)
+Jul 20 09:11:41 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:11:41 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.38 ms (1)
+Jul 20 09:11:41 symfony [info] {sfWebResponse} Send content (37859 o)
+Jul 20 09:12:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:12:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:12:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:12:34 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:12:34 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:12:34 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:12:34 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:12:34 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:12:34 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:12:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:12:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:12:34 symfony [info] {sfWebDebugLogger} Configuration 27.71 ms (11)
+Jul 20 09:12:34 symfony [info] {sfWebDebugLogger} Factories 165.31 ms (1)
+Jul 20 09:12:34 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:12:34 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 44.43 ms (1)
+Jul 20 09:12:34 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.02 ms (1)
+Jul 20 09:12:34 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.45 ms (1)
+Jul 20 09:12:34 symfony [info] {sfWebResponse} Send content (37859 o)
+Jul 20 09:14:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:14:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:14:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:14:13 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:14:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:14:13 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:14:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:14:13 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:14:13 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:14:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:14:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:14:13 symfony [info] {sfWebDebugLogger} Configuration 120.32 ms (12)
+Jul 20 09:14:13 symfony [info] {sfWebDebugLogger} Factories 52.62 ms (1)
+Jul 20 09:14:13 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.17 ms (1)
+Jul 20 09:14:13 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 187.82 ms (1)
+Jul 20 09:14:13 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:14:13 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.67 ms (1)
+Jul 20 09:14:13 symfony [info] {sfWebResponse} Send content (38302 o)
+Jul 20 09:14:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:14:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:14:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:14:31 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:14:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:14:31 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:14:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:14:31 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:14:31 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:14:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:14:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:14:31 symfony [info] {sfWebDebugLogger} Configuration 15.79 ms (11)
+Jul 20 09:14:31 symfony [info] {sfWebDebugLogger} Factories 45.03 ms (1)
+Jul 20 09:14:31 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 09:14:31 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 22.19 ms (1)
+Jul 20 09:14:31 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:14:31 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.64 ms (1)
+Jul 20 09:14:31 symfony [info] {sfWebResponse} Send content (38300 o)
+Jul 20 09:16:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:16:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:16:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:16:07 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:16:07 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:16:07 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:16:07 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:16:07 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:16:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:16:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:16:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:16:07 symfony [info] {sfWebDebugLogger} Configuration 22.18 ms (11)
+Jul 20 09:16:07 symfony [info] {sfWebDebugLogger} Factories 149.37 ms (1)
+Jul 20 09:16:07 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:16:07 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 38.81 ms (1)
+Jul 20 09:16:07 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:16:07 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 2.97 ms (1)
+Jul 20 09:16:07 symfony [info] {sfWebResponse} Send content (41261 o)
+Jul 20 09:19:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:19:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:19:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:19:33 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:19:33 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:19:33 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:19:33 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:19:33 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:19:33 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:19:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:19:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:19:33 symfony [info] {sfWebDebugLogger} Configuration 58.95 ms (12)
+Jul 20 09:19:33 symfony [info] {sfWebDebugLogger} Factories 47.65 ms (1)
+Jul 20 09:19:33 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:19:33 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 76.38 ms (1)
+Jul 20 09:19:33 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:19:33 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.90 ms (1)
+Jul 20 09:19:33 symfony [info] {sfWebResponse} Send content (41352 o)
+Jul 20 09:20:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:20:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:20:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:20:53 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:20:53 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:20:53 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:20:53 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:20:53 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:20:53 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:20:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:20:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:20:53 symfony [info] {sfWebDebugLogger} Configuration 44.34 ms (12)
+Jul 20 09:20:53 symfony [info] {sfWebDebugLogger} Factories 45.09 ms (1)
+Jul 20 09:20:53 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:20:53 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 57.26 ms (1)
+Jul 20 09:20:53 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:20:53 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.69 ms (1)
+Jul 20 09:20:53 symfony [info] {sfWebResponse} Send content (41469 o)
+Jul 20 09:22:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:22:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:22:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:22:11 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:22:11 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:22:11 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:22:11 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:22:11 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:22:11 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:22:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:22:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:22:11 symfony [info] {sfWebDebugLogger} Configuration 45.81 ms (12)
+Jul 20 09:22:11 symfony [info] {sfWebDebugLogger} Factories 49.31 ms (1)
+Jul 20 09:22:11 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:22:11 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 60.61 ms (1)
+Jul 20 09:22:11 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:22:11 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.67 ms (1)
+Jul 20 09:22:11 symfony [info] {sfWebResponse} Send content (41927 o)
+Jul 20 09:22:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:22:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:22:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:22:50 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:22:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:22:50 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:22:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:22:50 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:22:50 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:22:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:22:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:22:50 symfony [info] {sfWebDebugLogger} Configuration 72.53 ms (12)
+Jul 20 09:22:50 symfony [info] {sfWebDebugLogger} Factories 55.12 ms (1)
+Jul 20 09:22:50 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 09:22:50 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 82.97 ms (1)
+Jul 20 09:22:50 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.02 ms (1)
+Jul 20 09:22:50 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.77 ms (1)
+Jul 20 09:22:50 symfony [info] {sfWebResponse} Send content (42149 o)
+Jul 20 09:25:22 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:25:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:25:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:25:22 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:25:22 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:25:22 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:25:22 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:25:22 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:25:22 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:25:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:25:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:25:22 symfony [info] {sfWebDebugLogger} Configuration 51.86 ms (12)
+Jul 20 09:25:22 symfony [info] {sfWebDebugLogger} Factories 90.25 ms (1)
+Jul 20 09:25:22 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:25:22 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 68.05 ms (1)
+Jul 20 09:25:22 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:25:22 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.65 ms (1)
+Jul 20 09:25:22 symfony [info] {sfWebResponse} Send content (42779 o)
+Jul 20 09:25:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:25:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:25:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:25:39 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:25:40 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:25:40 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:25:40 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:25:40 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:25:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:25:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:25:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:25:40 symfony [info] {sfWebDebugLogger} Configuration 23.83 ms (11)
+Jul 20 09:25:40 symfony [info] {sfWebDebugLogger} Factories 45.95 ms (1)
+Jul 20 09:25:40 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:25:40 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 37.51 ms (1)
+Jul 20 09:25:40 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:25:40 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.38 ms (1)
+Jul 20 09:25:40 symfony [info] {sfWebResponse} Send content (41514 o)
+Jul 20 09:26:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:26:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:26:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:26:33 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:26:33 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:26:33 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:26:33 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:26:34 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:26:34 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:26:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:26:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:26:34 symfony [info] {sfWebDebugLogger} Configuration 115.35 ms (12)
+Jul 20 09:26:34 symfony [info] {sfWebDebugLogger} Factories 47.51 ms (1)
+Jul 20 09:26:34 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.11 ms (1)
+Jul 20 09:26:34 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 138.25 ms (1)
+Jul 20 09:26:34 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:26:34 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.68 ms (1)
+Jul 20 09:26:34 symfony [info] {sfWebResponse} Send content (41621 o)
+Jul 20 09:29:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:29:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:29:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:29:05 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:29:05 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:29:05 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:29:05 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:29:05 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:29:05 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:29:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:29:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:29:05 symfony [info] {sfWebDebugLogger} Configuration 16.29 ms (11)
+Jul 20 09:29:05 symfony [info] {sfWebDebugLogger} Factories 44.95 ms (1)
+Jul 20 09:29:05 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:29:05 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 28.05 ms (1)
+Jul 20 09:29:05 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:29:05 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.84 ms (1)
+Jul 20 09:29:05 symfony [info] {sfWebResponse} Send content (41619 o)
+Jul 20 09:29:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:29:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:29:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:29:31 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:29:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:29:31 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:29:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:29:31 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:29:31 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:29:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:29:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:29:31 symfony [info] {sfWebDebugLogger} Configuration 15.61 ms (11)
+Jul 20 09:29:31 symfony [info] {sfWebDebugLogger} Factories 44.33 ms (1)
+Jul 20 09:29:31 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.11 ms (1)
+Jul 20 09:29:31 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 27.30 ms (1)
+Jul 20 09:29:31 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:29:31 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.88 ms (1)
+Jul 20 09:29:31 symfony [info] {sfWebResponse} Send content (41619 o)
+Jul 20 09:29:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:29:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:29:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:29:48 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:29:48 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:29:48 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:29:48 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:29:48 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:29:48 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:29:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:29:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:29:48 symfony [info] {sfWebDebugLogger} Configuration 15.21 ms (11)
+Jul 20 09:29:48 symfony [info] {sfWebDebugLogger} Factories 51.63 ms (1)
+Jul 20 09:29:48 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.17 ms (1)
+Jul 20 09:29:48 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 26.09 ms (1)
+Jul 20 09:29:48 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:29:48 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.96 ms (1)
+Jul 20 09:29:48 symfony [info] {sfWebResponse} Send content (41618 o)
+Jul 20 09:30:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:30:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:30:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:30:13 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:30:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:30:14 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:30:14 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:30:14 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:30:14 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:30:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:30:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:30:14 symfony [info] {sfWebDebugLogger} Configuration 14.74 ms (11)
+Jul 20 09:30:14 symfony [info] {sfWebDebugLogger} Factories 45.51 ms (1)
+Jul 20 09:30:14 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:30:14 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 20.44 ms (1)
+Jul 20 09:30:14 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:30:14 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.87 ms (1)
+Jul 20 09:30:14 symfony [info] {sfWebResponse} Send content (41619 o)
+Jul 20 09:31:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:31:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:31:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:31:25 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:31:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:31:25 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:31:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:31:25 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:31:25 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:31:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:31:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:31:25 symfony [info] {sfWebDebugLogger} Configuration 17.07 ms (11)
+Jul 20 09:31:25 symfony [info] {sfWebDebugLogger} Factories 44.59 ms (1)
+Jul 20 09:31:25 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.11 ms (1)
+Jul 20 09:31:25 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 30.41 ms (1)
+Jul 20 09:31:25 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:31:25 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.94 ms (1)
+Jul 20 09:31:25 symfony [info] {sfWebResponse} Send content (41619 o)
+Jul 20 09:31:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:31:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:31:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:31:31 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:31:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:31:31 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:31:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:31:31 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:31:31 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:31:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:31:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:31:31 symfony [info] {sfWebDebugLogger} Configuration 14.61 ms (11)
+Jul 20 09:31:31 symfony [info] {sfWebDebugLogger} Factories 44.41 ms (1)
+Jul 20 09:31:31 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:31:31 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 25.74 ms (1)
+Jul 20 09:31:31 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:31:31 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.94 ms (1)
+Jul 20 09:31:31 symfony [info] {sfWebResponse} Send content (41586 o)
+Jul 20 09:38:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:38:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:38:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:38:46 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:38:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:38:46 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:38:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:38:46 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:38:46 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:38:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:38:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:38:46 symfony [info] {sfWebDebugLogger} Configuration 316.63 ms (11)
+Jul 20 09:38:46 symfony [info] {sfWebDebugLogger} Factories 132.41 ms (1)
+Jul 20 09:38:46 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:38:46 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 43.61 ms (1)
+Jul 20 09:38:46 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:38:46 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.76 ms (1)
+Jul 20 09:38:46 symfony [info] {sfWebResponse} Send content (41588 o)
+Jul 20 09:38:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:38:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:38:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:38:50 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:38:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:38:50 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:38:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:38:50 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:38:50 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:38:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:38:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:38:50 symfony [info] {sfWebDebugLogger} Configuration 15.93 ms (11)
+Jul 20 09:38:50 symfony [info] {sfWebDebugLogger} Factories 48.08 ms (1)
+Jul 20 09:38:50 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.16 ms (1)
+Jul 20 09:38:50 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 28.56 ms (1)
+Jul 20 09:38:50 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:38:50 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.69 ms (1)
+Jul 20 09:38:50 symfony [info] {sfWebResponse} Send content (41642 o)
+Jul 20 09:38:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:38:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:38:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:38:59 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:38:59 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:38:59 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:38:59 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:38:59 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:38:59 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:38:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:38:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:38:59 symfony [info] {sfWebDebugLogger} Configuration 341.40 ms (11)
+Jul 20 09:38:59 symfony [info] {sfWebDebugLogger} Factories 107.44 ms (1)
+Jul 20 09:38:59 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:38:59 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 58.05 ms (1)
+Jul 20 09:38:59 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:38:59 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.81 ms (1)
+Jul 20 09:38:59 symfony [info] {sfWebResponse} Send content (41645 o)
+Jul 20 09:39:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:39:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:39:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:39:36 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:39:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:39:36 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:39:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:39:36 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:39:36 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:39:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:39:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:39:36 symfony [info] {sfWebDebugLogger} Configuration 29.59 ms (11)
+Jul 20 09:39:36 symfony [info] {sfWebDebugLogger} Factories 42.96 ms (1)
+Jul 20 09:39:36 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 09:39:36 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 44.90 ms (1)
+Jul 20 09:39:36 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:39:36 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 2.18 ms (1)
+Jul 20 09:39:36 symfony [info] {sfWebResponse} Send content (41643 o)
+Jul 20 09:40:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:40:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:40:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:40:01 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:40:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:40:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:40:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:40:01 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:40:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:40:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:40:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:40:01 symfony [info] {sfWebDebugLogger} Configuration 29.53 ms (11)
+Jul 20 09:40:01 symfony [info] {sfWebDebugLogger} Factories 44.14 ms (1)
+Jul 20 09:40:01 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 09:40:01 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 30.59 ms (1)
+Jul 20 09:40:01 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:40:01 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.67 ms (1)
+Jul 20 09:40:01 symfony [info] {sfWebResponse} Send content (41642 o)
+Jul 20 09:40:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:40:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:40:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:40:25 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:40:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:40:25 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:40:25 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:40:25 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:40:25 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:40:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:40:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:40:25 symfony [info] {sfWebDebugLogger} Configuration 26.63 ms (11)
+Jul 20 09:40:25 symfony [info] {sfWebDebugLogger} Factories 41.94 ms (1)
+Jul 20 09:40:25 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:40:25 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 35.42 ms (1)
+Jul 20 09:40:25 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:40:25 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.66 ms (1)
+Jul 20 09:40:25 symfony [info] {sfWebResponse} Send content (41324 o)
+Jul 20 09:42:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:42:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:42:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:42:28 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:42:28 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:42:28 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:42:28 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:42:28 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:42:28 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:42:28 symfony [err] {sfConfigurationException} The component does not exist: "userControl", "nav".
+Jul 20 09:42:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 20 09:42:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:42:28 symfony [info] {sfWebDebugLogger} Configuration 27.87 ms (12)
+Jul 20 09:42:28 symfony [info] {sfWebDebugLogger} Factories 51.36 ms (1)
+Jul 20 09:42:28 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 09:42:28 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 140.61 ms (1)
+Jul 20 09:42:28 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.03 ms (1)
+Jul 20 09:42:28 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 2.37 ms (1)
+Jul 20 09:42:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:42:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:42:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:42:43 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:42:43 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:42:43 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:42:43 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:42:43 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:42:43 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:42:43 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 09:42:43 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 09:42:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:42:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:42:43 symfony [info] {sfWebDebugLogger} Configuration 32.06 ms (13)
+Jul 20 09:42:43 symfony [info] {sfWebDebugLogger} Factories 42.99 ms (1)
+Jul 20 09:42:43 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 09:42:43 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 49.82 ms (1)
+Jul 20 09:42:43 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 09:42:43 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.85 ms (1)
+Jul 20 09:42:43 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 09:42:43 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.89 ms (1)
+Jul 20 09:42:43 symfony [info] {sfWebResponse} Send content (46335 o)
+Jul 20 09:43:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 09:43:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 09:43:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 09:43:36 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 09:43:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 09:43:36 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:43:36 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 09:43:36 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 09:43:36 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 09:43:36 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 09:43:36 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 09:43:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 09:43:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 09:43:36 symfony [info] {sfWebDebugLogger} Configuration 45.94 ms (13)
+Jul 20 09:43:36 symfony [info] {sfWebDebugLogger} Factories 1097.66 ms (1)
+Jul 20 09:43:36 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 09:43:36 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 411.64 ms (1)
+Jul 20 09:43:36 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.02 ms (1)
+Jul 20 09:43:36 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 9.44 ms (1)
+Jul 20 09:43:36 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 09:43:36 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 11.35 ms (1)
+Jul 20 09:43:36 symfony [info] {sfWebResponse} Send content (46509 o)
+Jul 20 10:18:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 10:18:39 symfony [info] {myUser} Automatic user logout due to timeout
+Jul 20 10:18:39 symfony [info] {myUser} User is not authenticated
+Jul 20 10:18:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:18:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:18:39 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 10:18:39 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 10:18:39 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:18:39 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:18:39 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:18:39 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:18:39 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:18:39 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:18:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:18:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:18:39 symfony [info] {sfWebDebugLogger} Configuration 23.30 ms (13)
+Jul 20 10:18:39 symfony [info] {sfWebDebugLogger} Factories 44.30 ms (1)
+Jul 20 10:18:39 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 10:18:39 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 46.56 ms (1)
+Jul 20 10:18:39 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:18:39 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.75 ms (1)
+Jul 20 10:18:39 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:18:39 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.35 ms (1)
+Jul 20 10:18:39 symfony [info] {sfWebResponse} Send content (47236 o)
+Jul 20 10:19:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 10:19:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:19:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:19:48 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 10:19:48 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 10:19:48 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:19:48 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:19:48 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:19:48 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:19:48 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:19:48 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:19:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:19:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:19:48 symfony [info] {sfWebDebugLogger} Configuration 20.59 ms (13)
+Jul 20 10:19:48 symfony [info] {sfWebDebugLogger} Factories 40.16 ms (1)
+Jul 20 10:19:48 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 10:19:48 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 50.47 ms (1)
+Jul 20 10:19:48 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.02 ms (1)
+Jul 20 10:19:48 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.54 ms (1)
+Jul 20 10:19:48 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.02 ms (1)
+Jul 20 10:19:48 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.42 ms (1)
+Jul 20 10:19:48 symfony [info] {sfWebResponse} Send content (46505 o)
+Jul 20 10:20:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 10:20:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:20:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:20:52 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 10:20:52 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 10:20:52 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:20:52 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:20:52 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:20:52 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:20:52 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:20:52 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:20:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:20:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:20:52 symfony [info] {sfWebDebugLogger} Configuration 24.01 ms (13)
+Jul 20 10:20:52 symfony [info] {sfWebDebugLogger} Factories 44.28 ms (1)
+Jul 20 10:20:52 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 10:20:52 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 41.20 ms (1)
+Jul 20 10:20:52 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:20:52 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.40 ms (1)
+Jul 20 10:20:52 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:20:52 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.27 ms (1)
+Jul 20 10:20:52 symfony [info] {sfWebResponse} Send content (46516 o)
+Jul 20 10:21:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 10:21:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:21:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:21:06 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 10:21:06 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 10:21:06 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:21:06 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:21:06 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:21:06 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:21:06 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:21:06 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:21:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:21:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:21:06 symfony [info] {sfWebDebugLogger} Configuration 22.68 ms (13)
+Jul 20 10:21:06 symfony [info] {sfWebDebugLogger} Factories 41.89 ms (1)
+Jul 20 10:21:06 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 10:21:06 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 39.93 ms (1)
+Jul 20 10:21:06 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:21:06 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.33 ms (1)
+Jul 20 10:21:06 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:21:06 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.36 ms (1)
+Jul 20 10:21:07 symfony [info] {sfWebResponse} Send content (46516 o)
+Jul 20 10:22:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 10:22:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:22:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:22:29 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 10:22:29 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 10:22:29 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:22:29 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:22:29 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:22:29 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:22:29 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:22:29 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:22:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:22:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:22:29 symfony [info] {sfWebDebugLogger} Configuration 21.91 ms (13)
+Jul 20 10:22:29 symfony [info] {sfWebDebugLogger} Factories 40.38 ms (1)
+Jul 20 10:22:29 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 10:22:29 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 44.41 ms (1)
+Jul 20 10:22:29 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:22:29 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.34 ms (1)
+Jul 20 10:22:29 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:22:29 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.62 ms (1)
+Jul 20 10:22:29 symfony [info] {sfWebResponse} Send content (46567 o)
+Jul 20 10:22:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 10:22:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:22:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:22:50 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 10:22:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 10:22:50 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:22:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:22:50 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:22:50 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:22:50 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:22:50 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:22:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:22:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:22:50 symfony [info] {sfWebDebugLogger} Configuration 27.26 ms (13)
+Jul 20 10:22:50 symfony [info] {sfWebDebugLogger} Factories 47.52 ms (1)
+Jul 20 10:22:50 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.13 ms (1)
+Jul 20 10:22:50 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 56.23 ms (1)
+Jul 20 10:22:50 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.03 ms (1)
+Jul 20 10:22:50 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 2.64 ms (1)
+Jul 20 10:22:50 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.02 ms (1)
+Jul 20 10:22:50 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.83 ms (1)
+Jul 20 10:22:50 symfony [info] {sfWebResponse} Send content (46572 o)
+Jul 20 10:23:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'dashboard',  'action' => 'index',)
+Jul 20 10:23:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:23:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:23:23 symfony [info] {dashboardActions} Call "dashboardActions->executeIndex()"
+Jul 20 10:23:23 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/dashboard/templates/indexSuccess.php"
+Jul 20 10:23:23 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:23:23 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:23:23 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:23:23 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:23:23 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:23:23 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:23:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:23:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:23:23 symfony [info] {sfWebDebugLogger} Configuration 21.98 ms (13)
+Jul 20 10:23:23 symfony [info] {sfWebDebugLogger} Factories 50.54 ms (1)
+Jul 20 10:23:23 symfony [info] {sfWebDebugLogger} Action "dashboard/index" 0.12 ms (1)
+Jul 20 10:23:23 symfony [info] {sfWebDebugLogger} View "Success" for "dashboard/index" 40.53 ms (1)
+Jul 20 10:23:23 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:23:23 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 1.35 ms (1)
+Jul 20 10:23:23 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:23:23 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.99 ms (1)
+Jul 20 10:23:23 symfony [info] {sfWebResponse} Send content (46614 o)
+Jul 20 10:23:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /student/new with parameters array (  'module' => 'student',  'action' => 'new',)
+Jul 20 10:23:29 symfony [info] {sfFrontWebController} Action "student/new" does not exist
+Jul 20 10:23:29 symfony [err] {sfError404Exception} Action "student/new" does not exist.
+Jul 20 10:23:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jul 20 10:23:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:23:29 symfony [info] {sfWebDebugLogger} Configuration 6.55 ms (5)
+Jul 20 10:23:29 symfony [info] {sfWebDebugLogger} Factories 38.19 ms (1)
+Jul 20 10:24:39 symfony [info] {sfPatternRouting} Match route "student_new" (/student/new.:sf_format) for /student/new with parameters array (  'module' => 'student',  'action' => 'new',  'sf_format' => 'html',)
+Jul 20 10:24:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:24:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:24:40 symfony [info] {studentActions} Call "studentActions->executeNew()"
+Jul 20 10:24:40 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/newSuccess.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_assets.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_flashes.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_header.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_fieldset.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_field.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_field.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_field.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_field.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_actions.php"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_footer.php"
+Jul 20 10:24:40 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:24:40 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:24:40 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:24:40 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:24:40 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:24:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:24:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Configuration 651.12 ms (16)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Factories 165.29 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Action "student/new" 135.27 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} View "Success" for "student/new" 184.97 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "student/_assets" 0.81 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "student/_flashes" 0.69 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "student/_form_header" 0.70 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "student/_form" 84.89 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "student/_form_fieldset" 54.68 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "student/_form_field" 51.02 ms (4)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "student/_form_actions" 1.46 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "student/_form_footer" 0.83 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.68 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.25 ms (1)
+Jul 20 10:24:40 symfony [info] {sfWebResponse} Send content (90649 o)
+Jul 20 10:28:00 symfony [info] {sfPatternRouting} Match route "student_new" (/student/new.:sf_format) for /student/new with parameters array (  'module' => 'student',  'action' => 'new',  'sf_format' => 'html',)
+Jul 20 10:28:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:28:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:28:00 symfony [info] {studentActions} Call "studentActions->executeNew()"
+Jul 20 10:28:00 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/newSuccess.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_assets.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_flashes.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_header.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_fieldset.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_field.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_field.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_actions.php"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_footer.php"
+Jul 20 10:28:00 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:28:00 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:28:00 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:28:00 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:28:00 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:28:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:28:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Configuration 22.58 ms (15)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Factories 60.69 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Action "student/new" 56.97 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} View "Success" for "student/new" 66.59 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "student/_assets" 1.61 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "student/_flashes" 0.87 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "student/_form_header" 1.02 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "student/_form" 16.96 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "student/_form_fieldset" 9.69 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "student/_form_field" 5.38 ms (2)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "student/_form_actions" 2.01 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "student/_form_footer" 0.95 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.69 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.15 ms (1)
+Jul 20 10:28:00 symfony [info] {sfWebResponse} Send content (71390 o)
+Jul 20 10:28:04 symfony [info] {sfPatternRouting} Match route "student" (/student.:sf_format) for /student with parameters array (  'module' => 'student',  'action' => 'index',  'sf_format' => 'html',)
+Jul 20 10:28:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:28:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:28:04 symfony [info] {studentActions} Call "studentActions->executeIndex()"
+Jul 20 10:28:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 20 10:28:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM student s - ()
+Jul 20 10:28:07 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/indexSuccess.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_assets.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_flashes.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_list_header.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_filters.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_filters_field.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_filters_field.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_filters_field.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_filters_field.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_list.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_list_batch_actions.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_list_actions.php"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_list_footer.php"
+Jul 20 10:28:07 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:28:07 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:28:07 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:28:07 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:28:07 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:28:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:28:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Configuration 21.64 ms (15)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Factories 50.10 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Action "student/index" 2796.87 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} View "Success" for "student/index" 103.90 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_assets" 1.39 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_flashes" 1.30 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_list_header" 1.40 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_filters" 31.53 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_filters_field" 22.13 ms (4)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_list" 2.45 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_list_batch_actions" 2.42 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_list_actions" 1.94 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "student/_list_footer" 1.55 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.69 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.15 ms (1)
+Jul 20 10:28:07 symfony [info] {sfWebResponse} Send content (86888 o)
+Jul 20 10:29:01 symfony [info] {sfPatternRouting} Match route "student_new" (/student/new.:sf_format) for /student/new with parameters array (  'module' => 'student',  'action' => 'new',  'sf_format' => 'html',)
+Jul 20 10:29:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 10:29:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 10:29:01 symfony [info] {studentActions} Call "studentActions->executeNew()"
+Jul 20 10:29:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/newSuccess.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_assets.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_flashes.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_header.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_fieldset.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_field.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_field.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_actions.php"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\cache\backend\dev\modules/autoStudent/templates/_form_footer.php"
+Jul 20 10:29:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:29:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\ubeogit\apps\backend\templates/layout.php"
+Jul 20 10:29:01 symfony [info] {main} Call "userControl->executeHead()"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_head.php"
+Jul 20 10:29:01 symfony [info] {main} Call "userControl->executeNav()"
+Jul 20 10:29:01 symfony [info] {sfPartialView} Render "C:\xampp\htdocs\ubeogit\apps\backend\modules/userControl/templates/_nav.php"
+Jul 20 10:29:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 10:29:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Configuration 19.49 ms (15)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Factories 56.89 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Action "student/new" 45.20 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} View "Success" for "student/new" 56.35 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "student/_assets" 0.96 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "student/_flashes" 0.89 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "student/_form_header" 1.61 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "student/_form" 13.39 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "student/_form_fieldset" 6.89 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "student/_form_field" 4.11 ms (2)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "student/_form_actions" 1.33 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "student/_form_footer" 1.01 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Component "userControl/head" 0.01 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "userControl/_head" 0.67 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Component "userControl/nav" 0.01 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebDebugLogger} Partial "userControl/_nav" 1.17 ms (1)
+Jul 20 10:29:01 symfony [info] {sfWebResponse} Send content (71452 o)

@@ -22,6 +22,15 @@ field_values:
   relations:
     fields: {onDelete: CASCADE, local: field_id, foreign: id}  
 
+#  Term Table
+term:
+  actAs: 
+    Timestampable: ~
+  columns:
+    value: { type: string(255), notnull: true}
+    start_at: { type: date, notnull: true}
+    end_at: { type: date, notnull: true }
+
 
 #  School Year Table
 school_year:
@@ -32,6 +41,17 @@ school_year:
     start_at: { type: date, notnull: true}
     end_at: { type: date, notnull: true }
 
+# School year Term Table
+school_year_term:
+  actAs: 
+    Timestampable: ~
+  columns:
+    term_id: { type: integer, notnull: true }
+    school_year_id: { type: integer, notnull: true }    
+  relations:
+    term: {onDelete: CASCADE, local: term_id, foreign: id}   
+    school_year: {onDelete: CASCADE, local: school_year_id, foreign: id}   
+    
 #  Student Table
 student:
   actAs:
