@@ -1,3 +1,39 @@
+teacher_form_fields:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                teacher_form_fields
+    module:               teacher_form_fields
+    prefix_path:          /teacher_form_fields
+    column:               id
+    with_wildcard_routes: true
+
+student_form_fields:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                student_form_fields
+    module:               student_form_fields
+    prefix_path:          /student_form_fields
+    column:               id
+    with_wildcard_routes: true
+
+field_values:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                field_values
+    module:               field_values
+    prefix_path:          /field_values
+    column:               id
+    with_wildcard_routes: true
+
+fields:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                fields
+    module:               fields
+    prefix_path:          /fields
+    column:               id
+    with_wildcard_routes: true
+
 student:
   class: sfDoctrineRouteCollection
   options:

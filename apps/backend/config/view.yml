@@ -12,9 +12,9 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [utopia-white.css, utopia-responsive]
+  stylesheets:    [utopia-white.css, utopia-responsive, fullcalendar.css]
 
-  javascripts:    [jquery.min.js, jquery.cookie.js, utopia.js, jquery.hoverIntent.min.js, jquery.easing.1.3.js, jquery.datatable.js, jquery.sparkline.js, jquery.vticker-min.js, datepicker.js, image-gallery.min.js, jquery.simpleWeather.js, maskedinput.js, chosen.jquery.js, sidebar.js, load-image.min.js, jquery.validationEngine.js, jquery.validationEngine-en.js, jquery.queryloader2.js, header.js ]
+  javascripts:    [jquery.min.js, jquery.cookie.js, utopia.js, jquery.hoverIntent.min.js, jquery.easing.1.3.js, jquery.datatable.js, fullcalendar.js, jquery.sparkline.js, jquery.vticker-min.js, datepicker.js, image-gallery.min.js, jquery.simpleWeather.js, maskedinput.js, chosen.jquery.js, sidebar.js, load-image.min.js, jquery.validationEngine.js, jquery.validationEngine-en.js, jquery.queryloader2.js, header.js ]
 
   has_layout:     true
   layout:         layout

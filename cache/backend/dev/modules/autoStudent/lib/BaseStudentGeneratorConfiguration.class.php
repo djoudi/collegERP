@@ -174,7 +174,7 @@ abstract class BaseStudentGeneratorConfiguration extends sfModelGeneratorConfigu
 
   public function hasFilterForm()
   {
-    return true;
+    return false;
   }
 
   /**

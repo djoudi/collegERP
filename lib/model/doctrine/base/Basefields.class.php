@@ -15,27 +15,36 @@
  * @property Doctrine_Collection $student_fields
  * @property Doctrine_Collection $teacher_fields
  * @property Doctrine_Collection $lesson_fields
+ * @property Doctrine_Collection $student_form_fields
+ * @property Doctrine_Collection $teacher_form_fields
+ * @property Doctrine_Collection $lesson_form_fields
  * 
- * @method string              getFieldname()      Returns the current record's "fieldname" value
- * @method string              getFieldtype()      Returns the current record's "fieldtype" value
- * @method string              getFieldkey()       Returns the current record's "fieldkey" value
- * @method integer             getFieldorder()     Returns the current record's "fieldorder" value
- * @method integer             getIsNum()          Returns the current record's "isNum" value
- * @method integer             getIsReq()          Returns the current record's "isReq" value
- * @method Doctrine_Collection getFieldValues()    Returns the current record's "field_values" collection
- * @method Doctrine_Collection getStudentFields()  Returns the current record's "student_fields" collection
- * @method Doctrine_Collection getTeacherFields()  Returns the current record's "teacher_fields" collection
- * @method Doctrine_Collection getLessonFields()   Returns the current record's "lesson_fields" collection
- * @method fields              setFieldname()      Sets the current record's "fieldname" value
- * @method fields              setFieldtype()      Sets the current record's "fieldtype" value
- * @method fields              setFieldkey()       Sets the current record's "fieldkey" value
- * @method fields              setFieldorder()     Sets the current record's "fieldorder" value
- * @method fields              setIsNum()          Sets the current record's "isNum" value
- * @method fields              setIsReq()          Sets the current record's "isReq" value
- * @method fields              setFieldValues()    Sets the current record's "field_values" collection
- * @method fields              setStudentFields()  Sets the current record's "student_fields" collection
- * @method fields              setTeacherFields()  Sets the current record's "teacher_fields" collection
- * @method fields              setLessonFields()   Sets the current record's "lesson_fields" collection
+ * @method string              getFieldname()           Returns the current record's "fieldname" value
+ * @method string              getFieldtype()           Returns the current record's "fieldtype" value
+ * @method string              getFieldkey()            Returns the current record's "fieldkey" value
+ * @method integer             getFieldorder()          Returns the current record's "fieldorder" value
+ * @method integer             getIsNum()               Returns the current record's "isNum" value
+ * @method integer             getIsReq()               Returns the current record's "isReq" value
+ * @method Doctrine_Collection getFieldValues()         Returns the current record's "field_values" collection
+ * @method Doctrine_Collection getStudentFields()       Returns the current record's "student_fields" collection
+ * @method Doctrine_Collection getTeacherFields()       Returns the current record's "teacher_fields" collection
+ * @method Doctrine_Collection getLessonFields()        Returns the current record's "lesson_fields" collection
+ * @method Doctrine_Collection getStudentFormFields()   Returns the current record's "student_form_fields" collection
+ * @method Doctrine_Collection getTeacherFormFields()   Returns the current record's "teacher_form_fields" collection
+ * @method Doctrine_Collection getLessonFormFields()    Returns the current record's "lesson_form_fields" collection
+ * @method fields              setFieldname()           Sets the current record's "fieldname" value
+ * @method fields              setFieldtype()           Sets the current record's "fieldtype" value
+ * @method fields              setFieldkey()            Sets the current record's "fieldkey" value
+ * @method fields              setFieldorder()          Sets the current record's "fieldorder" value
+ * @method fields              setIsNum()               Sets the current record's "isNum" value
+ * @method fields              setIsReq()               Sets the current record's "isReq" value
+ * @method fields              setFieldValues()         Sets the current record's "field_values" collection
+ * @method fields              setStudentFields()       Sets the current record's "student_fields" collection
+ * @method fields              setTeacherFields()       Sets the current record's "teacher_fields" collection
+ * @method fields              setLessonFields()        Sets the current record's "lesson_fields" collection
+ * @method fields              setStudentFormFields()   Sets the current record's "student_form_fields" collection
+ * @method fields              setTeacherFormFields()   Sets the current record's "teacher_form_fields" collection
+ * @method fields              setLessonFormFields()    Sets the current record's "lesson_form_fields" collection
  * 
  * @package    ubeo
  * @subpackage model
@@ -96,6 +105,18 @@ abstract class Basefields extends sfDoctrineRecord
              'foreign' => 'field_id'));
 
         $this->hasMany('lesson_fields', array(
+             'local' => 'id',
+             'foreign' => 'field_id'));
+
+        $this->hasMany('student_form_fields', array(
+             'local' => 'id',
+             'foreign' => 'field_id'));
+
+        $this->hasMany('teacher_form_fields', array(
+             'local' => 'id',
+             'foreign' => 'field_id'));
+
+        $this->hasMany('lesson_form_fields', array(
              'local' => 'id',
              'foreign' => 'field_id'));
 

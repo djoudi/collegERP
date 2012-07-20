@@ -8,13 +8,16 @@
  * @property string $value
  * @property date $start_at
  * @property date $end_at
+ * @property Doctrine_Collection $school_year_term
  * 
- * @method string      getValue()    Returns the current record's "value" value
- * @method date        getStartAt()  Returns the current record's "start_at" value
- * @method date        getEndAt()    Returns the current record's "end_at" value
- * @method school_year setValue()    Sets the current record's "value" value
- * @method school_year setStartAt()  Sets the current record's "start_at" value
- * @method school_year setEndAt()    Sets the current record's "end_at" value
+ * @method string              getValue()            Returns the current record's "value" value
+ * @method date                getStartAt()          Returns the current record's "start_at" value
+ * @method date                getEndAt()            Returns the current record's "end_at" value
+ * @method Doctrine_Collection getSchoolYearTerm()   Returns the current record's "school_year_term" collection
+ * @method school_year         setValue()            Sets the current record's "value" value
+ * @method school_year         setStartAt()          Sets the current record's "start_at" value
+ * @method school_year         setEndAt()            Sets the current record's "end_at" value
+ * @method school_year         setSchoolYearTerm()   Sets the current record's "school_year_term" collection
  * 
  * @package    ubeo
  * @subpackage model
@@ -44,6 +47,10 @@ abstract class Baseschool_year extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasMany('school_year_term', array(
+             'local' => 'id',
+             'foreign' => 'school_year_id'));
+
         $timestampable0 = new Doctrine_Template_Timestampable();
         $this->actAs($timestampable0);
     }

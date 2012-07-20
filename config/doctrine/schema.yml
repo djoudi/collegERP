@@ -116,4 +116,27 @@ lesson_fields:
    relations:
     lesson: {onDelete: CASCADE, local: lesson_id, foreign: id}
     fields: {onDelete: CASCADE, local: field_id, foreign: id}
+# Fields Config
+student_form_fields:
+  actAs: 
+    Timestampable: ~
+  columns:
+   field_id: { type: integer, notnull: true }  
+  relations:
+   fields: {onDelete: CASCADE, local: field_id, foreign: id}
 
+teacher_form_fields:
+  actAs: 
+    Timestampable: ~
+  columns:
+   field_id: { type: integer, notnull: true }  
+  relations:
+   fields: {onDelete: CASCADE, local: field_id, foreign: id}
+
+lesson_form_fields:
+  actAs: 
+    Timestampable: ~
+  columns:
+   field_id: { type: integer, notnull: true }  
+  relations:
+   fields: {onDelete: CASCADE, local: field_id, foreign: id}

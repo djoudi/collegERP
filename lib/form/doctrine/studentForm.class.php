@@ -15,16 +15,43 @@ class studentForm extends BasestudentForm {
         unset($this['updated_at']);
 
         $subForm = new sfForm();
-        $student_fields;
-        for ($i = 0; $i < 2; $i++) {
-            $productPhoto = new ProductPhoto();
-            $productPhoto->Product = $this->getObject();
-
-            $form = new ProductPhotoForm($productPhoto);
-
-            $subForm->embedForm($i, $form);
+        $student_fields = Doctrine_Core::getTable('student_form_fields')
+                ->createQuery('p')
+                ->execute();
+        foreach ($student_fields as $f) {
+            $fields = $f->getFields();
+            switch ($fields->getFieldtype()) {
+                case "textbox":
+                    $this->widgetSchema['field_' . $fields->getId()] = new sfWidgetFormInputText(array('label' => $fields->getFieldname()));
+                    $this->validatorSchema['field_' . $fields->getId()] = new sfValidatorString(array('required' => $fields->getIsReq()));
+                    break;
+                case "textarea":
+                    $this->widgetSchema['field_' . $fields->getId()] = new sfWidgetFormInputTextarea(array('label' => $fields->getFieldname()));
+                    $this->validatorSchema['field_' . $fields->getId()] = new sfValidatorString(array('required' => $fields->getIsReq()));
+                    break;
+                case "checkbox":
+                    $this->widgetSchema['field_' . $fields->getId()] = new sfWidgetFormChoice(array(
+                                'label' => $fields->getFieldname(),
+                                'choices' => $this->getFieldValues($fields->getFieldValues()),
+                                'multiple' => true,
+                                'expanded' => true));
+                    $this->validatorSchema['field_' . $fields->getId()] = new sfValidatorBoolean(array(
+                                'required' => false,
+                                'true_values' => array(true),
+                                'false_values' => array(false)
+                            ));
+                    break;
+            }
         }
-        $this->embedForm('student_fields', $subForm);
+    }
+
+    private function getFieldValues($fv) {
+
+        foreach ($fv as $v) {
+            $ret[] = $v->getValue();
+        }
+
+        return $ret;
     }
 
 }

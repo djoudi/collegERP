@@ -15,7 +15,7 @@
     <div class="nav-collapse collapse leftmenu">
 
         <ul>
-            <li class="current"><a class="dashboard smronju" href="dashboard.html" title="Dashboard"><span><em>Dashboard</em></span></a></li>
+            <li class="current"><a class="dashboard smronju" href="<?php echo url_for("dashboard/index"); ?>" title="Dashboard"><span><em>Dashboard</em></span></a></li>
             <li><a class="editor" href="javascript:void(0)" title="Forms"><span><em>Бүртгэл</em></span></a>
                 <ul class="dropdown" style="left: 222px; visibility: hidden; display: none; ">
                     <li><a class="wizard-form smronju" href="<?php echo url_for("student/new"); ?>" title="Бүртгэлийн хуудас"><span><em>Оюутан</em></span></a></li>
@@ -33,11 +33,11 @@
             <li><a class="charts" href="charts.html" title="Graphs &amp; Charts"><span><em>Charts</em></span></a></li>
             <li><a class="barcode" href="barcode.html" title="Barcode"><span><em>Barcode</em></span></a></li>
 
-            <li><a class="gallery" href="javascript:void(0)" title="Galleries"><span><em>Galleries</em></span></a>
+            <li><a class="tables" href="javascript:void(0)" title="Тохирго"><span><em>Тохирго</em></span></a>
                 <ul class="dropdown" style="left: 222px; visibility: hidden; display: none; ">
-                    <li><a class="fluidgallery" href="fluid_galleries.html" title="Fluid Gallery"><span><em>Fluid Gallery</em></span></a></li>
-                    <li><a class="slidergallery" href="mixed_galleries.html" title="Mixed Gallery"><span><em>Mixed Gallery</em></span></a></li>
-                    <li><a class="videogallery" href="video_galleries.html" title="Video Gallery"><span><em>Video Gallery</em></span></a></li>
+                    <li><a class="wizard-form" href="<?php echo url_for("fields/new"); ?>" title="Талбар"><span><em>Талбар</em></span></a></li>
+                    <li><a class="wizard-form" href="<?php echo url_for("student_form_fields/new"); ?>" title="Оюутаны бүртгэл"><span><em>Оюутаны бүртгэл</em></span></a></li>
+                    <li><a class="wizard-form" href="<?php echo url_for("teacher_form_fields/new"); ?>" title="Багшын бүртгэл"><span><em>Багшын бүртгэл</em></span></a></li>
                 </ul>
             </li>
             <li><a class="grid" href="grid.html" title="Grid"><span><em>Grid</em></span></a></li>
