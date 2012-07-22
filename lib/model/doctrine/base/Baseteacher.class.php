@@ -7,13 +7,16 @@
  * 
  * @property string $student_code
  * @property integer $user_id
+ * @property string $thumb
  * @property Doctrine_Collection $teacher_fields
  * 
  * @method string              getStudentCode()    Returns the current record's "student_code" value
  * @method integer             getUserId()         Returns the current record's "user_id" value
+ * @method string              getThumb()          Returns the current record's "thumb" value
  * @method Doctrine_Collection getTeacherFields()  Returns the current record's "teacher_fields" collection
  * @method teacher             setStudentCode()    Sets the current record's "student_code" value
  * @method teacher             setUserId()         Sets the current record's "user_id" value
+ * @method teacher             setThumb()          Sets the current record's "thumb" value
  * @method teacher             setTeacherFields()  Sets the current record's "teacher_fields" collection
  * 
  * @package    ubeo
@@ -34,6 +37,10 @@ abstract class Baseteacher extends sfDoctrineRecord
         $this->hasColumn('user_id', 'integer', null, array(
              'type' => 'integer',
              'notnull' => true,
+             ));
+        $this->hasColumn('thumb', 'string', 255, array(
+             'type' => 'string',
+             'length' => 255,
              ));
     }
 

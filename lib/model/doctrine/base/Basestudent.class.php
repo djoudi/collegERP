@@ -7,13 +7,19 @@
  * 
  * @property string $student_code
  * @property integer $user_id
+ * @property string $thumb
+ * @property Doctrine_Collection $student_groups
  * @property Doctrine_Collection $student_fields
  * 
  * @method string              getStudentCode()    Returns the current record's "student_code" value
  * @method integer             getUserId()         Returns the current record's "user_id" value
+ * @method string              getThumb()          Returns the current record's "thumb" value
+ * @method Doctrine_Collection getStudentGroups()  Returns the current record's "student_groups" collection
  * @method Doctrine_Collection getStudentFields()  Returns the current record's "student_fields" collection
  * @method student             setStudentCode()    Sets the current record's "student_code" value
  * @method student             setUserId()         Sets the current record's "user_id" value
+ * @method student             setThumb()          Sets the current record's "thumb" value
+ * @method student             setStudentGroups()  Sets the current record's "student_groups" collection
  * @method student             setStudentFields()  Sets the current record's "student_fields" collection
  * 
  * @package    ubeo
@@ -35,11 +41,19 @@ abstract class Basestudent extends sfDoctrineRecord
              'type' => 'integer',
              'notnull' => true,
              ));
+        $this->hasColumn('thumb', 'string', 255, array(
+             'type' => 'string',
+             'length' => 255,
+             ));
     }
 
     public function setUp()
     {
         parent::setUp();
+        $this->hasMany('student_groups', array(
+             'local' => 'id',
+             'foreign' => 'student_id'));
+
         $this->hasMany('student_fields', array(
              'local' => 'id',
              'foreign' => 'student_id'));

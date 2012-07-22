@@ -14,6 +14,21 @@ class studentForm extends BasestudentForm {
         unset($this['created_at']);
         unset($this['updated_at']);
 
+        $this->widgetSchema['thumb'] = new sfWidgetFormInputFileEditable(array(
+                    'label' => 'Оюутаны зураг',
+                    'file_src' => sfConfig::get('app_host') . '/uploads/students/' . $this->getObject()->getThumb(),
+                    'is_image' => true,
+                    'edit_mode' => !$this->isNew(),
+                    'template' => '<div class="thumb">%file%<br />%input%<br />
+                                    </div>',
+                ));
+        $this->validatorSchema['thumb'] = new sfValidatorFile(array(
+                    'path' => sfConfig::get('sf_upload_dir') . "/students",
+                    'required' => true,
+                    'mime_types' => 'web_images'
+                ));
+
+
         $subForm = new sfForm();
         $student_fields = Doctrine_Core::getTable('student_form_fields')
                 ->createQuery('p')

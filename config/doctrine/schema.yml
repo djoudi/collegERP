@@ -52,6 +52,14 @@ school_year_term:
     term: {onDelete: CASCADE, local: term_id, foreign: id}   
     school_year: {onDelete: CASCADE, local: school_year_id, foreign: id}   
     
+#  GroupTable
+stgroups:
+  actAs: 
+    Timestampable: ~
+  columns:
+    short_name: { type: string(10), notnull: true }
+    name: { type: string(255), notnull: true }    
+
 #  Student Table
 student:
   actAs:
@@ -59,8 +67,21 @@ student:
   columns:
     student_code: { type: string(255), notnull: true}
     user_id: { type: integer, notnull: true }
+    thumb: { type: string(255) }
   relations:
     sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
+#  GroupTable
+student_groups:
+  actAs: 
+    Timestampable: ~
+  columns:
+    student_id: { type: integer, notnull: true }
+    school_year_id: { type: integer, notnull: true } 
+    groups_id: { type: integer, notnull: true } 
+  relations:
+    student: {onDelete: CASCADE, local: student_id, foreign: id}
+    school_year: {onDelete: CASCADE, local: school_year_id, foreign: id}
+    stgroups: {onDelete: CASCADE, local: groups_id, foreign: id}
 #  Student Fields Table   
 student_fields:
    actAs:
@@ -79,6 +100,7 @@ teacher:
   columns:
     student_code: { type: string(255), notnull: true}
     user_id: { type: integer, notnull: true }
+    thumb: { type: string(255) }
   relations:
     sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
 #  Teacher Fields Table

@@ -18,6 +18,7 @@ abstract class BaseteacherForm extends BaseFormDoctrine
       'id'           => new sfWidgetFormInputHidden(),
       'student_code' => new sfWidgetFormInputText(),
       'user_id'      => new sfWidgetFormInputText(),
+      'thumb'        => new sfWidgetFormInputText(),
       'created_at'   => new sfWidgetFormDateTime(),
       'updated_at'   => new sfWidgetFormDateTime(),
     ));
@@ -26,6 +27,7 @@ abstract class BaseteacherForm extends BaseFormDoctrine
       'id'           => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'student_code' => new sfValidatorString(array('max_length' => 255)),
       'user_id'      => new sfValidatorInteger(),
+      'thumb'        => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'created_at'   => new sfValidatorDateTime(),
       'updated_at'   => new sfValidatorDateTime(),
     ));

@@ -1,3 +1,0 @@
-<td colspan="9">
-  <?php echo __('%%id%% - %%fieldname%% - %%fieldtype%% - %%fieldkey%% - %%fieldorder%% - %%isNum%% - %%isReq%% - %%created_at%% - %%updated_at%%', array('%%id%%' => link_to($fields->getId(), 'fields_edit', $fields), '%%fieldname%%' => $fields->getFieldname(), '%%fieldtype%%' => $fields->getFieldtype(), '%%fieldkey%%' => $fields->getFieldkey(), '%%fieldorder%%' => $fields->getFieldorder(), '%%isNum%%' => $fields->getIsNum(), '%%isReq%%' => $fields->getIsReq(), '%%created_at%%' => false !== strtotime($fields->getCreatedAt()) ? format_date($fields->getCreatedAt(), "f") : '&nbsp;', '%%updated_at%%' => false !== strtotime($fields->getUpdatedAt()) ? format_date($fields->getUpdatedAt(), "f") : '&nbsp;'), 'messages') ?>
-</td>

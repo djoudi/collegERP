@@ -9,15 +9,18 @@
  * @property date $start_at
  * @property date $end_at
  * @property Doctrine_Collection $school_year_term
+ * @property Doctrine_Collection $student_groups
  * 
  * @method string              getValue()            Returns the current record's "value" value
  * @method date                getStartAt()          Returns the current record's "start_at" value
  * @method date                getEndAt()            Returns the current record's "end_at" value
  * @method Doctrine_Collection getSchoolYearTerm()   Returns the current record's "school_year_term" collection
+ * @method Doctrine_Collection getStudentGroups()    Returns the current record's "student_groups" collection
  * @method school_year         setValue()            Sets the current record's "value" value
  * @method school_year         setStartAt()          Sets the current record's "start_at" value
  * @method school_year         setEndAt()            Sets the current record's "end_at" value
  * @method school_year         setSchoolYearTerm()   Sets the current record's "school_year_term" collection
+ * @method school_year         setStudentGroups()    Sets the current record's "student_groups" collection
  * 
  * @package    ubeo
  * @subpackage model
@@ -48,6 +51,10 @@ abstract class Baseschool_year extends sfDoctrineRecord
     {
         parent::setUp();
         $this->hasMany('school_year_term', array(
+             'local' => 'id',
+             'foreign' => 'school_year_id'));
+
+        $this->hasMany('student_groups', array(
              'local' => 'id',
              'foreign' => 'school_year_id'));
 
