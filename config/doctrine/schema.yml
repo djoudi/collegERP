@@ -52,8 +52,8 @@ school_year_term:
     term: {onDelete: CASCADE, local: term_id, foreign: id}   
     school_year: {onDelete: CASCADE, local: school_year_id, foreign: id}   
     
-#  GroupTable
-stgroups:
+#  angi
+angi:
   actAs: 
     Timestampable: ~
   columns:
@@ -70,18 +70,18 @@ student:
     thumb: { type: string(255) }
   relations:
     sf_guard_user: {onDelete: CASCADE, local: user_id, foreign: id}
-#  GroupTable
-student_groups:
+
+student_angi:
   actAs: 
     Timestampable: ~
   columns:
     student_id: { type: integer, notnull: true }
     school_year_id: { type: integer, notnull: true } 
-    groups_id: { type: integer, notnull: true } 
+    angi_id: { type: integer, notnull: true } 
   relations:
     student: {onDelete: CASCADE, local: student_id, foreign: id}
     school_year: {onDelete: CASCADE, local: school_year_id, foreign: id}
-    stgroups: {onDelete: CASCADE, local: groups_id, foreign: id}
+    angi: {onDelete: CASCADE, local: angi_id, foreign: id}
 #  Student Fields Table   
 student_fields:
    actAs:

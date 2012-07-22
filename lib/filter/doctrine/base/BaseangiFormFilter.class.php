@@ -1,14 +1,14 @@
 <?php
 
 /**
- * group filter form base class.
+ * angi filter form base class.
  *
  * @package    ubeo
  * @subpackage filter
  * @author     Your name here
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 29570 2010-05-21 14:49:47Z Kris.Wallsmith $
  */
-abstract class BasegroupFormFilter extends BaseFormFilterDoctrine
+abstract class BaseangiFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
@@ -26,7 +26,7 @@ abstract class BasegroupFormFilter extends BaseFormFilterDoctrine
       'updated_at' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
     ));
 
-    $this->widgetSchema->setNameFormat('group_filters[%s]');
+    $this->widgetSchema->setNameFormat('angi_filters[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
 
@@ -37,7 +37,7 @@ abstract class BasegroupFormFilter extends BaseFormFilterDoctrine
 
   public function getModelName()
   {
-    return 'group';
+    return 'angi';
   }
 
   public function getFields()

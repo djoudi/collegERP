@@ -1,16 +1,16 @@
 <?php
 
 /**
- * st_group form base class.
+ * angi form base class.
  *
- * @method st_group getObject() Returns the current form's model object
+ * @method angi getObject() Returns the current form's model object
  *
  * @package    ubeo
  * @subpackage form
  * @author     Your name here
  * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 29553 2010-05-20 14:33:00Z Kris.Wallsmith $
  */
-abstract class Basest_groupForm extends BaseFormDoctrine
+abstract class BaseangiForm extends BaseFormDoctrine
 {
   public function setup()
   {
@@ -30,7 +30,7 @@ abstract class Basest_groupForm extends BaseFormDoctrine
       'updated_at' => new sfValidatorDateTime(),
     ));
 
-    $this->widgetSchema->setNameFormat('st_group[%s]');
+    $this->widgetSchema->setNameFormat('angi[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
 
@@ -41,7 +41,7 @@ abstract class Basest_groupForm extends BaseFormDoctrine
 
   public function getModelName()
   {
-    return 'st_group';
+    return 'angi';
   }
 
 }
