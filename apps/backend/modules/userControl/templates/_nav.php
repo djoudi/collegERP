@@ -40,7 +40,13 @@
                     <li><a class="wizard-form" href="<?php echo url_for("teacher_form_fields/new"); ?>" title="Багшын бүртгэл"><span><em>Багшын бүртгэл</em></span></a></li>
                 </ul>
             </li>
-            <li><a class="grid" href="grid.html" title="Grid"><span><em>Grid</em></span></a></li>
+            <li><a class="grid" href="grid.html" title="Шинэ хичээлийн"><span><em>Шинэ хичээлийн жил</em></span></a>
+                <ul class="dropdown" style="left: 222px; visibility: hidden; display: none; ">
+                    <li><a class="wizard-form" href="<?php echo url_for("school_year/new"); ?>" title="Талбар"><span><em>Хичээлийн жил</em></span></a></li>
+                    <li><a class="wizard-form" href="<?php echo url_for("school_year_term/new"); ?>" title="Оюутаны бүртгэл"><span><em>Симестр</em></span></a></li>
+                    <li><a class="wizard-form" href="<?php echo url_for("group/new"); ?>" title="Багшын бүртгэл"><span><em>Груп үүсгэх</em></span></a></li>
+                </ul>
+            </li>
             <li><a class="calendar" href="calendar.html" title="Calendar"><span><em>Calendar</em></span></a></li>
             <li><a class="icons" href="icons.html" title="Icons"><span><em> Icons</em></span></a></li>
             <li><a class="chat" href="conversation.html" title="Conversation"><span><em>Conversation</em></span></a></li>

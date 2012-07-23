@@ -12,5 +12,7 @@ class school_yearForm extends Baseschool_yearForm
 {
   public function configure()
   {
+      unset($this['created_at']);
+       unset($this['updated_at']);
   }
 }

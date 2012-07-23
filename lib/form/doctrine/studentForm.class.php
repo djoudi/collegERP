@@ -58,6 +58,7 @@ class studentForm extends BasestudentForm {
                     break;
             }
         }
+        $this->mergeForm(new student_angiForm());
     }
 
     private function getFieldValues($fv) {

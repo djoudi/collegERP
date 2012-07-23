@@ -1,3 +1,30 @@
+angi:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                angi
+    module:               angi
+    prefix_path:          /angi
+    column:               id
+    with_wildcard_routes: true
+
+school_year_term:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                school_year_term
+    module:               school_year_term
+    prefix_path:          /school_year_term
+    column:               id
+    with_wildcard_routes: true
+
+school_year:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                school_year
+    module:               school_year
+    prefix_path:          /school_year
+    column:               id
+    with_wildcard_routes: true
+
 teacher_form_fields:
   class: sfDoctrineRouteCollection
   options:

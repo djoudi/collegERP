@@ -1,0 +1,3 @@
+<td colspan="5">
+  <?php echo __('%%id%% - %%term_id%% - %%school_year_id%% - %%created_at%% - %%updated_at%%', array('%%id%%' => link_to($school_year_term->getId(), 'school_year_term_edit', $school_year_term), '%%term_id%%' => $school_year_term->getTermId(), '%%school_year_id%%' => $school_year_term->getSchoolYearId(), '%%created_at%%' => false !== strtotime($school_year_term->getCreatedAt()) ? format_date($school_year_term->getCreatedAt(), "f") : '&nbsp;', '%%updated_at%%' => false !== strtotime($school_year_term->getUpdatedAt()) ? format_date($school_year_term->getUpdatedAt(), "f") : '&nbsp;'), 'messages') ?>
+</td>
